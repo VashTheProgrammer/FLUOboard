@@ -1,0 +1,39 @@
+############################################################
+
+fluoeth.name=Fluo 32U4 Ethernet
+
+fluoeth.vid.0=0x2ECF
+fluoeth.pid.0=0x0003
+
+fluoeth.upload.tool=arduino:avrdude
+fluoeth.upload.protocol=avr109
+
+fluoeth.upload.maximum_size=28672
+fluoeth.upload.maximum_data_size=2560
+fluoeth.upload.speed=57600
+fluoeth.upload.disable_flushing=true
+fluoeth.upload.use_1200bps_touch=true
+fluoeth.upload.wait_for_upload_port=true
+
+fluoeth.bootloader.tool=avrdude
+fluoeth.bootloader.low_fuses=0xff
+fluoeth.bootloader.high_fuses=0xd8
+fluoeth.bootloader.extended_fuses=0xcb
+
+fluoeth.bootloader.file=caterinaFluo/Caterina.hex
+fluoeth.bootloader.unlock_bits=0xF
+fluoeth.bootloader.lock_bits=0x2F
+
+fluoeth.build.mcu=atmega32u4
+fluoeth.build.f_cpu=16000000L
+
+fluoeth.build.vid=0x2ECF
+fluoeth.build.pid=0x0003
+
+fluoeth.build.usb_product="Fluo 32U4 Ethernet"
+fluoeth.build.usb_manufacturer="Fluo Technology Ltd"
+fluoeth.build.board=AVR_LEONARDO_ETH
+fluoeth.build.core=arduino:arduino
+fluoeth.build.variant=fluoeth
+fluoeth.build.extra_flags={build.usb_flags}
+

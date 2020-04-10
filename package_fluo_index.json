@@ -1,0 +1,37 @@
+{
+    "packages": 
+    [
+      {
+        "name": "Fluo",
+        "maintainer": "Fluo Technology",
+        "websiteURL": "https://fluotechnology.co.uk",
+        "email": "TechSupport@fluotechnology.co.uk",
+        "help": 
+        {
+          "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+        },
+        "platforms": [
+            {
+                "name": "Fluo Technology AVR Boards",
+                "architecture": "avr",
+                "version": "1.0.0",
+                "category": "Contributed",
+                "url": "https://github.com/sparkfun/Arduino_Boards/raw/master/IDE_Board_Manager/sparkfunboards.1.1.5.tar.bz2",
+                "archiveFileName": "sparkfunboards.1.1.5.tar.bz2",
+                "checksum": "SHA-256:41f9728983e0dbab597bb46ddf00b5bac6cfec7c8f3771ecd1612dae58bb0366",
+                "size": "1162215",
+                "help": {
+                  "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+                },
+                "boards": 
+                [
+                  {
+                    "name": "Fluo 32u4 ETH"
+                  }
+                ],
+                "toolsDependencies": []
+            }
+        ]
+      }
+    ]  
+}
