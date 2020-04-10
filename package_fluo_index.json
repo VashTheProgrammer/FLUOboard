@@ -1,33 +1,37 @@
 {
   "packages": [
     {
-      "name": "Fluo",
-      "maintainer": "Fluo Technology",
-      "websiteURL": "https://fluotechnology.co.uk",
-      "email": "tech@fluotechnology.co.uk",
+      "maintainer": "Espressif Systems", 
       "help": {
-        "online": "https://github.com/VashTheProgrammer/FLUOboard/blob/master/README.md"
-      },
+        "online": "http://esp32.com"
+      }, 
+      "websiteURL": "https://github.com/espressif/arduino-esp32", 
       "platforms": [
         {
-          "name": "Fluo Technology AVR Boards",
-          "architecture": "avr",
-          "version": "1.0.0",
-          "category": "Contributed",
-          "url": "https://github.com/VashTheProgrammer/FLUOboard/archive/1.0.tar.gz",
-          "archiveFileName": "FLUOboard-1.0.tar.gz",
-          "checksum": "SHA-256:E9D2CA12ACE40293F8E64F747FA1176BB6F411C17F1B88D2B3BEAA9CDAD53646",
-          "size": "250852",
+          "category": "ESP32", 
+          "name": "esp32", 
+          "url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.4/esp32-1.0.4.zip", 
+          "checksum": "SHA-256:d9108bf873933c4e48a3ca401fb51e41b2cc3f98d7c9b9be9881e7ca34bf0efe", 
           "help": {
-            "online": "https://github.com/VashTheProgrammer/FLUOboard/blob/master/README.md"
-          },
+            "online": ""
+          }, 
+          "version": "1.0.4", 
+          "architecture": "esp32", 
+          "archiveFileName": "esp32-1.0.4.zip", 
           "boards": [
-            { "name": "Fluo 32u4 ETH" }
-          ],
-          "toolsDependencies": [],
-          "tools": []
+            {
+              "name": "ESP32 Dev Module"
+            }
+          ], 
+          "toolsDependencies": [
+          ], 
+          "size": "36853332"
         }
-      ]
+      ], 
+      "tools": [],
+ 
+      "email": "hristo@espressif.com", 
+      "name": "esp32"
     }
   ]
 }
