@@ -4,7 +4,6 @@
       "name": "Fluo",
       "maintainer": "Fluo Technology",
       "websiteURL": "https://fluotechnology.co.uk",
-      "email": "tech@fluotechnology.co.uk",
       "help": {
         "online": "https://github.com/VashTheProgrammer/FLUOboard/blob/master/README.md"
       },
@@ -27,9 +26,7 @@
           "toolsDependencies": [],
           "tools": []
         }
-      ],
-      "email": "fluo@fluotechnology.co.uk",
-      "name": "fluo"
+      ]
     }
   ]
 }
