@@ -14,7 +14,7 @@ To add board support for our products, start Arduino IDE and open the Preference
 
 	https://raw.githubusercontent.com/VashTheProgrammer/FLUOboard/master/package_fluo_index.json
 
-![Location of Additional Boards Manager URL input field](prefs-arrow.png)
+![Location of Additional Boards Manager URL input field](https://github.com/VashTheProgrammer/FLUOboard/blob/master/Preferences.PNG)
 
 If there is already an URL from another manufacturer in that field, click the button at the right end of the field. This will open an editing window allowing you to paste the above URL onto a new line.
 
@@ -26,7 +26,7 @@ Open the Boards Manager window by selecting **Tools** > **Board**, scroll to the
 
 If you type "fluo" (without quotes) into the "filter your search" field, you will see options to install Fluo 32u4 ETH board files. Click in the desired box, and click the "Install" button that appears. Once installed, the boards will appear at the bottom of the board list.
 
-![Sparkfun Boards](sparkfunboards.png)
+![Fluo Boards](https://github.com/VashTheProgrammer/FLUOboard/blob/master/fluoimg.PNG)
 
 
 
